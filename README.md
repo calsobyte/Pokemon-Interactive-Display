@@ -1,8 +1,9 @@
 # Blastoise OLED Cry
 
 A small Arduino project that displays a two-frame Blastoise animation on a 128×64 OLED and plays a short cry through a passive buzzer when a button is pressed.
+The display should return to its standing frame when the sound finishes. The project uses an Arduino Uno, an SSD1306 I²C OLED, one push button, and a passive buzzer.
 
-The display returns to its standing frame when the sound finishes. The project uses an Arduino Uno, an SSD1306 I²C OLED, one push button, and a passive buzzer.
+I did this project as an experiment to learn how HEX codes and displays work, along with trying to imitate noises using a simple passive buzzer.
 
 > Fan-made project. Pokémon and Blastoise are the property of their respective owners. This project is not affiliated with or endorsed by Nintendo, The Pokémon Company, or Game Freak.
 
@@ -59,7 +60,7 @@ Both are 64×64 monochrome images stored in program memory (`PROGMEM`).
 2. Install the two Adafruit libraries listed above.
 3. Add the sketch and `blastoise.h` to the same Arduino sketch folder.
 4. Select **Arduino Uno** and the correct port in the Arduino IDE.
-5. Compile and upload.
+5. Compile and upload. 
 
 ## Notes
 
