@@ -7,13 +7,13 @@
 | Passive buzzer | 1 | Not an active buzzer; driven with `tone()` |
 | Momentary push button | 1 | Starts the animation and cry |
 | Breadboard | 1 | For temporary assembly |
-| Jumper wires | As needed | Male-to-male wires are usually suitable |
+| Jumper wires | As needed | Male-to-male and Male-to-female|
 | USB cable for Arduino Uno | 1 | Programming and power |
 
 ## Optional
 
 - A multimeter for checking connections.
-- A separate regulated supply if your setup later needs more current. Keep all grounds common.
+- A separate regulated supply if your setup later needs more current. Keep all grounds common. (Shouldn't be needed for this project)
 
 ## Notes
 
