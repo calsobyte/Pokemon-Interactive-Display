@@ -66,11 +66,12 @@ Both are 64×64 monochrome images stored in program memory (`PROGMEM`).
 
 ## Notes
 
-
 - The button uses `INPUT_PULLUP`, so it connects between D2 and GND. No external pull-up resistor is needed.
 - The buzzer is driven from D8 and GND. If your buzzer module has polarity markings, observe them.
 - The OLED address in the sketch is set to `0x3C`. Some modules use `0x3D`.
 - The passive buzzer can make simple electronic tones and rough effects, but it cannot reproduce a recorded creature voice.
+
+![video demo](Display_demo/20261105_214736.jpg)
 
 ## Assets and licensing
 
