@@ -5,6 +5,8 @@ The display should return to its standing frame when the sound finishes. The pro
 
 I did this project as an experiment to learn how HEX codes and displays work, along with trying to imitate noises using a simple passive buzzer.
 
+![project cover](Display_demo/20261105_214736.jpg)
+
 > Fan-made project. Pokémon and Blastoise are the property of their respective owners. This project is not affiliated with or endorsed by Nintendo, The Pokémon Company, or Game Freak.
 
 ## Features
@@ -63,6 +65,7 @@ Both are 64×64 monochrome images stored in program memory (`PROGMEM`).
 5. Compile and upload. 
 
 ## Notes
+
 
 - The button uses `INPUT_PULLUP`, so it connects between D2 and GND. No external pull-up resistor is needed.
 - The buzzer is driven from D8 and GND. If your buzzer module has polarity markings, observe them.
