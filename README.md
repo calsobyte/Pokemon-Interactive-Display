@@ -71,7 +71,7 @@ Both are 64×64 monochrome images stored in program memory (`PROGMEM`).
 - The OLED address in the sketch is set to `0x3C`. Some modules use `0x3D`.
 - The passive buzzer can make simple electronic tones and rough effects, but it cannot reproduce a recorded creature voice.
 
-![video demo](Display_demo/20261105_214736.jpg)
+![video demo](Display_demo/20261105_213813.mp4)
 
 ## Assets and licensing
 
