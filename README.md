@@ -33,6 +33,7 @@ Install these libraries through the Arduino IDE Library Manager:
 
 ```text
 Blastoise-OLED-Project/
+├──Blatoise_OLED.ino
 ├── assets/
 │   ├── frame-1-reference.png
 │   └── frame-2-reference.png
@@ -47,7 +48,7 @@ Blastoise-OLED-Project/
 └── README.md
 ```
 
-Create your Arduino sketch in the Arduino IDE and save it in a sketch folder named `BlastoiseOLED`. Put `blastoise.h` in the same sketch folder as the `.ino` file (or adjust the include path if you keep the header in `src/`). Paste your final sketch into that `.ino` file.
+You can download the .ino file for Arduino IDE as listed above
 
 The header defines these two bitmap arrays:
 
